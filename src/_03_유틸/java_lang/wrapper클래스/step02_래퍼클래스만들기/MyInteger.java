@@ -1,0 +1,28 @@
+package _03_유틸.java_lang.wrapper클래스.step02_래퍼클래스만들기;
+
+public class MyInteger {
+
+    private final int value;
+
+    public MyInteger(int value) {
+        this.value = value;
+    }
+
+    public int getValue() {
+        return value;
+    }
+
+    public int compareTo(int target) {
+        if(value < target)
+            return -1;
+        else if(value > target)
+            return 1;
+        else
+            return 0;
+    }
+
+    @Override
+    public String toString() {
+        return String.valueOf(value);
+    }
+}

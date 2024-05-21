@@ -1,0 +1,22 @@
+/*
+	- java.lang패키지는 자바프로그래밍에서 가장 기본이 되는 클래스들을 포함하고 있다.
+	  그렇기 때문에 java.lang패키지의 클래스들은 import문 없이도 사용할 수 있게 되어 있다.
+*/
+
+/*
+ 	- Object 클래스의 메서드들...
+ 		: Object클래스는 멤버변수는 없고 오직 11개의 메서드만 가지고 있다.
+
+		 		(1) public boolean equals(Object obj)
+		 		(2) public int hashCode()
+		 		(3) public String toString()
+		 		(4) public Class getClass()
+		 		(5) protected Object clone()					- 객체 자신의 복사본을 반환한다.
+		 		(6) protected void finalize()					- 객체가 소멸될 때 가비지 컬렉터에 의해 자동적으로 호출된다.
+		 														  이 때 수행되어야하는 코드가 있을 때 오버라이딩 한다.
+		 		(7) public void notify()						- 객체 자신을 사용하려고 기다리는 쓰레드를 하나만 깨운다.
+		 		(8) public void notifyAll()						- 객체 자신을 사용하려고 기다리는 모든 쓰레드를 깨운다.
+		 		(9) public void wait()							- 다른 쓰레드가 notify()나 notifyAll()을 호출할 때까지 현재 쓰레드를 무한히 또는 지정된
+		 		    public void wait(long timeout)  			  시간(timeout, nanos)동안 기다리게 한다.
+		 		    public void wait(long timeout, int nanos)
+*/

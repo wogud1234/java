@@ -1,0 +1,11 @@
+- 편의상 쌍따옴표로 문자열을 감싸면 자바 언어에서 new String("hello")와 같이 변경해준다.
+
+public final class String {
+
+    private final char[] value;     // jdk9 이전
+    private final byte[] value;     // jdk9 이후
+
+    public String concat(String str) { ... }
+    public int length() { ... }
+    ...
+}
