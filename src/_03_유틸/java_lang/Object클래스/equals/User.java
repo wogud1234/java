@@ -29,6 +29,7 @@ public class User {
           (같은 가치나 수준을 의미하지만 그 형태나 외관 등이 완전히 같지는 않을 수 있음을 의미)
 
     - equals()를 구현할 때 지켜야 하는 규칙
+
         1) 반사성 (Reflexivity)
             : 객체는 자기 자신과 동등해야 한다.
 
@@ -44,4 +45,9 @@ public class User {
 
         5) null에 대한 비교
             : 모든 객체는 null과 비교했을 때 false를 반환해야 한다.
+*/
+
+/*
+	- String, Date, File, wrapper클래스들(Integer, Double 등) 등의 클래스들은 equals()가 주소가 아닌 내용을 비교하도록 오버라이딩 되어있다.
+	- StringBuffer클래스는 오버라이딩되어 있지 않다.
 */
