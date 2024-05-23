@@ -1,0 +1,36 @@
+< 최초 >
+
+0) 원하는 프로젝트 폴더 들어가서 git bash open
+
+1) git init
+	-> 로컬 저장소 생성
+
+2) 하다가 꼬이면 .git 파일 삭제하고 다시 init 하면 된다.
+
+3) 로컬 저장소를 원격 저장소에 연결
+	-> git remote add origin https://github.com/wogud1234/java
+	   (붙여넣기 단축키: Shift + Ins)
+
+4) 최초 연결 시 한 번만, 아이디와 이메일 주소 알리기.
+	-> git config --global user.name "wogud1234"
+	   git config --global user.email "bexel963@gmail.com"
+	   (복사 단축키: Ctrl + Shift + C)
+	
+5) 로컬 저장소에 프로젝트 내용 올리기
+	-> git add .
+
+6) 로컬 저장소에 커밋 내용을 남긴다.
+	-> git commit -m "제목"
+
+7) 로컬 저장소에 있는 내용을 원격 저장소로 전송하기
+	-> git push origin master
+
+-------------------------------------------------------------------
+
+< 수정 >
+
+0) 원하는 프로젝트 폴더 들어가서 git bash open
+
+1) git add .
+2) git commit -m "제목"
+3) git push origin master
